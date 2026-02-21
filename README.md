@@ -59,6 +59,7 @@ train_RsHN.py
 ```
 
 ## Eval 
+Partial model weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1aWe_zGDJMyHg-hdFneq6o0XJwV-bWUO1?usp=drive_link).
 ```
 eval_on_dsec.py
 eval_on_pku.py
