@@ -1,4 +1,3 @@
-# encoding: utf-8
 import torch
   
 def eval_on_dsec(exp,net,maxT=10,split='val',batch_size=16):

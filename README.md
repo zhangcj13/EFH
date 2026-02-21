@@ -11,7 +11,7 @@ python=3.8.13
 # install torch
 pip install torch==2.0.0+cu117 torchvision==0.15.0+cu117 torchaudio==2.0.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
 # install yolox
-bash llibs/download_install.sh
+bash libs/download_install.sh
 # install packages
 pip install -r requirements.txt
 ```
@@ -54,7 +54,15 @@ convert the raw .aedat4 files to synrhronous frames (.png), events (.npy) and th
 
 ## Train 
 
+```
+train_RsHN.py
+```
 
+## Eval 
+```
+eval_on_dsec.py
+eval_on_pku.py
+```
 
 
 ## Citation
@@ -73,5 +81,8 @@ If our work help to your research, please cite our paper, thx.
 ```
 
 ## Thanks to these amazing projects:
+- [dagr](https://github.com/uzh-rpg/dagr)
+- [dsec-det](https://github.com/uzh-rpg/dsec-det)
 - [spikingjelly](https://github.com/fangwei123456/spikingjelly)
 - [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
+
